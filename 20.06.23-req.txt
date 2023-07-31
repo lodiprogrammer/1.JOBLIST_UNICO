@@ -1,0 +1,29 @@
+1. penambahan filter customer di ar balance ( untuk melihat history payment / di pembayaranya bisa di klik untuk melihat detailnya )
+2. penambahan filter supplier di ap payable ( untuk melihat history payment )
+3. Sales history untuk melihat history penjualan dengan filter range perbulan / pertahun juga bisa
+4. Purchase history untuk melihat history Pembelian dengan filter range perbulan / pertahun juga bisa
+
+lod ini perubahan yang request bu nur, tp ini semua masih di local
+
+#purchase history & sales history
+- no faktur
+- tanggal faktur
+- tanggal lunas
+
+#ap payable (saldo piutang per periode)
+
+# list penjualan dan pembelian (belom ada)
+- no faktur dan tanggal faktur
+- nominal
+
+#SALES HISTORY
+1. bug di filter suplier/customernya
+2. PO num,SO num (gausah)
+3. tanggal invoice, no invoice, tanggal bayar (munculkan)
+
+#PURCHASE HISTORY
+1. surat jalan,id po(gausah)
+2. tanggal invoice, no invoice, tanggal bayar (munculkan)
+3. no invoice diambil dari purchase invoice
+
+

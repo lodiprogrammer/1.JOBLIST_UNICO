@@ -1,0 +1,7 @@
+website
+- inputnya
+- autocomplete jquery untuk pn (ngikuti 'report/OaDetail')
+- autocomplete jquery untuk lokasi (ngikuti 'accounting/CBExpense/input/cash')
+siang... ada pertanyaan dari bu nur dari team accounting,untuk cek biaya2 yg sdh prnh di jurnal di UMS cek dimana katanyaa
+
+Bisa juga di General Ledger...tp klo yang di GENERAL LEDGER itu kan yang periode tahun 2023 (belum tutup buku) Kalo mau lihat data yang lama tahun 2022 bisa ke Archive/General LEDGER

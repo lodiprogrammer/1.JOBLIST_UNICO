@@ -1,0 +1,4 @@
+SELECT a.pn,a.pname,a.stok FROM inventory_balance a
+WHERE a.pn NOT IN (SELECT b.pn FROM inventory_detail b)
+AND a.stok >= 100
+ORDER BY a.stok DESC

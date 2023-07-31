@@ -1,0 +1,205 @@
+-Jam kerja Senin - Jumat (08.00 - 17.00) Sabtu (08.00 - 15.00). Pulang kantor pasti ontime
+-Anda akan bertugas sbg IT Full STACK yang akan dimentor dari vendor EXTERNAL 
+-Anda akan bertugas sbg juga sebagai troubleshoot hardware,software
+-Untuk salary di awal adalah UMR JAKARTA ++ dan tergantung dari hasil 
+
+page login buat opsi
+-form input login
+-memubat opsi koneksi pada endpoint di reactnative
+-jika tidak bisa masuk koneksi A maka masuk koneksi B
+
+
+#31/3/2023
+sore pak heri...progress saya hari ini sebagai berikut:
+1. cek koneksi SSID (on progress)
+- SAMSUNG A 73(DIDI)	NOT OK	KELUAR MASUK RADIUS
+- IPHONE 11 (STEVEN)	NOT OK	KELUAR MASUK RADIUS
+- IPHONE-XR (VERA)	NOT OK	KELUAR MASUK RADIUS
+
+2. memantau email yang tidak masuk ke unico(belum ada laporan dari user)
+3. munculkan informasi stock opname ( stock system  ) [di android juga di web] (done)
+4. tambahkan qty real stock opname ( tidak bisa di edit) [di android juga di web] (done)
+
+#28/3/2023
+Selamat sore pak Heri... ini laporan progress saya hari ini pak..:
+1. cek koneksi SSID (on progress)
+	a. IPHONE-XR (ka fera), Samsung ( pak DIDI)
+		- keluar radius login ulang
+	b. LAPTOP WIN 11 (ka stevy)
+		- gabisa masuk wifi SSID
+		- tapi tadi tiba2 bisa connect
+
+2. mengatasi error email yang tidak bisa masuk di Mozilla Thunderbird(on progress)
+3. bantu adit mengerjakan interchange react (on progress)
+4. mengubah data purchase invoice sesuai excel(on progress)
+5. cek stok gudang dengan julia(data masih sama)
+
+#27/3/2023
+Selamat sore pak Heri... ini laporan progress saya hari ini pak..:
+1. cek koneksi SSID (on progress)
+- IPHONE-XR (ka fera), Samsung ( pak DIDI)
+- keluar radius login ulang
+2. buat validasi dan fix bug aplikasi react native(done)
+3. bantu adit mengerjakan interchange react (on progress)
+
+#25/3/2023
+Selamat sore pak Heri... Berikut Laporan progress saya hari ini:
+1. cek koneksi SSID (on progress)
+- IPHONE-XR (ka fera), Samsung ( pak DIDI)
+- keluar radius login ulang
+- device lainnya aman
+2. folowup debug di aplikasi ums dengan adit(done)
+3. cari bug di aplikasi react native(on progress)
+
+#24/3/2023
+Selamat sore pak Heri... Berikut Laporan progress saya hari ini:
+1. cek koneksi SSID (on progress)
+- khusus IPHONE-XR (ka fera)
+- keluar radius login ulang
+- device lainnya aman
+2. stok opname pada android dan web(done)
+3. mencocokan stok gudang dengan di hp (stok masih sama)
+4. demo app dengan julia, stok opname dan inventory location(done)
+
+
+#21/3/2023
+Selamat sore pak Heri... Berikut Laporan progress saya hari ini:
+1. cek koneksi SSID (on progress)
+- khusus IPHONE-XR (ka fera)
+- kalau jauh dari radius, pas masuk lagi harus login kembali
+- jam 15.50 konek without internet, menunggu sesaat tiba2 konek ke internet dan automatis login
+2. stok opname pada android dan web (on progress)
+3. mencocokan stok gudang dengan di hp (stok masih sama)
+4. test koneksi ssid VVIP test dengan tama (on progress)
+
+#18/3/2023
+Selamat sore pak Heri... Berikut Laporan saya progress saya hari ini:
+1. troubleshoot debug di marketing ums (on progress)
+2. cek koneksi SSID (on progress)
+- khusus IPHONE-XR (ka fera)
+- kalau ganti koneksi wifi, pas kembali ke koneksi VVIP jadi login ulang
+- kalau jauh dari radius, pas masuk lagi harus login kembali
+3. belajar koneksi dan jalur2 pada kabel internet(on progress)
+4. menambahkan module di stok opname android dan website ums (on progress)
+
+#16/3/2023
+Selamat sore pak Heri... Berikut Laporan saya progress saya hari ini:
+1. troubleshot masalah kabel lan tidak konek internet(done)
+2. koneksi wifi ke semua perangkat(on progress)
+keterangannya ada hp ios yang gabisa masuk wifi VVIP
+3. koneksi pada lokal di react (on progress)
+4. bagi tugas dengan adit untuk mengerjakan request untuk react app (done)
+
+
+#15/3/2023
+Selamat sore pak Heri... Berikut Laporan saya progress saya hari ini:
+1. troubleshoot masalah double connect (done)
+2. cek stok bersama julia (data masih sama)
+3. koneksi wifi di semua perangkat (aman)
+4. koneksi pada lokal di react (on progress)
+5. memberi arahan user untuk memakai program ums bersama adit(done)
+
+#14/3/2023
+Selamat sore pak Heri... Berikut Laporan saya progress saya hari ini:
+1. troubleshoot masalah koneksi wifi bersama tama, dan testing koneksi ke internet (done)
+2. cek stok bersama julia (data masih ada)
+3. memperbaiki filter pada react native (done)
+4. memperbaiki error show list outgoing dan incoming yang munculnya double pada react native(done)
+5. test koneksi wifi di perangkat ios,android,win 10,11 dll (done)
+
+#13/3/2023
+Selamat sore pak Heri... Berikut Laporan saya progress saya hari ini:
+1. input dan update lokasi react (done)
+2. tampilkan lokasi pada stok, send, orderdetail,inventori(done)
+3. cek eror pada aplikasi react(on progress)
+4. cek stok akhir bersama team gudang(on progress)
+
+#11/3/2023
+Selamat siang pak Heri... Berikut Laporan saya progress saya hari ini:
+1. mencocokan koneksi lokal login di react-native(on progress)
+2. pada inventori ditambahkan lokasi barang (on progress)
+3. searching location (on progress)
+4. mempelajari alur sistem unico (on progress)
+5. membuat lokasi automatis terinput jika lokasi sudah di input sebelumnya react-native(done)
+
+#10/3/2023
+Selamat sore pak Heri... Berikut Laporan saya progress saya hari ini:
+1. mencocokan koneksi lokal login di react-native(on progress)
+2. membuat dokumentasi request di aplikasi ums dari team KPS(done)
+3. pada inventori ditambahkan lokasi barang (on progress)
+4. searching location (on progress)
+5. mempelajari alur sistem unico (on progress)
+6. membuat lokasi automatis terinput jika lokasi sudah di input sebelumnya react-native(on progress)
+
+#9/3/2023
+Selamat sore pak Heri... Berikut Laporan saya progress saya hari ini:
+1. mencocokan koneksi lokal login di react-native(on progress)
+2. troubleshoot aplikasi ums bagian finance (done)
+3. pada inventori ditambahkan lokasi barang (on progress)
+4. searching location (on progress)
+5. mempelajari alur sistem unico (on progress)
+6. membantu adit membuat flowchart untuk stok masuk secara otomatis(done)
+
+#8/3/2023
+Selamat sore pak Heri... Berikut Laporan saya progress saya hari ini:
+1. mencari bug pada program react-native(on progress)
+2. mencocokan koneksi lokal login di react-native(on progress)
+3. mengganti dropdown agar tidak lag pada saat menampilkan data lokasi(done)
+4. troubleshoot aplikasi ums bagian finance (on progress)
+5. pada inventori ditambahkan lokasi barang (on progress)
+6. searching location (on progress)
+
+#6/3/2023
+Selamat sore pak Heri... Berikut Laporan progress saya hari ini:
+1. membuat incoming order react native (done)
+2. membuat penambahan stok pada incoming react native (done)
+3. membuat datepicker react native (on progress)
+4. merapihkan design UI react native (on progress)
+5. cek bug pada program react native (on progress)
+
+#3/3/2023
+Selamat sore pak Heri... Berikut Laporan progress saya hari ini:
+1. membuat proses login mengambil dari endopint dan masuk halaman utama(done)
+2. membuat combo box untuk opsi koneksi pada menu login(on progress)
+3. merge project di repositori bersama adit(done)
+
+#3/2/2023
+Selamat sore pak Heri... Berikut Laporan progress saya hari ini:
+=> membuat splashscreen (done)
+=> membuat form login (done)
+=> trouble shoot instalasi dan depedency (done)
+=> membuat navigasi di react-native (done)
+=> membuat proses login mengambil dari endopint(on progress)
+=> membuat combo box untuk opsi koneksi pada menu login(on progress)
+
+#2/26/2023
+Selamat sore pak Heri... Berikut Laporan progress saya hari ini:
+=> membuat form login React-Native(on progress)
+=> membuat menu pilihan pada koneksi di menu login(on progress)
+=> restart koneksi internet PT.UNICO dan komplain ke biznet karena internet mati
+
+#2/25/2023
+Selamat sore pak Heri... Berikut Laporan progress saya hari ini:
+=> instalasi react native(done)
+=> demonstrasi aplikasi contoh react-native(done)
+=> mengatasi eror "failed to lanuch emulator" pada react native(on progress)
+
+#2/24/2023
+Selamat sore pak Heri... Berikut Laporan progress saya hari ini:
+1.instalasi react native
+2.membuat form input dan login menggunakan react
+
+
+#2/23/2023
+Selamat sore pak Heri... Berikut Laporan progress saya hari ini:
+1. Belajar dan mengenali CodeIgniter(on progress)
+2. mempelajari struktur program dan lingkungan CodeIgniter(done)
+3. mempelajari Route,Controller,View dan Model CodeIgniter (done)
+4. mempelajari Insert dan validasi data CodeIgniter(on progress)
+
+#2/22/2023
+Selamat sore pak Heri... Berikut Laporan progress saya hari ini:
+1. Instalasi app yang di butuhkan pada CodeIgniter(done)
+2. Belajar dan mengenali CodeIgniter(on progress)
+3. membuat laporan trouble hari ini dari program ums(done)
+

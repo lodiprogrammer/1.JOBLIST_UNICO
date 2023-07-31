@@ -1,0 +1,18 @@
+#laporan teh tia
+- jadi di outstanding SO yang di tandain warna pink itu data yang fix
+- untuk yang belom di tandain itu data yang gaada di data pribadi bu tia
+- ada juga data outsanding SO yang tidak ada di data pribadi bu tia
+
+#fera
+uti2303po0073
+uti2303po0072
+
+jadi kalo po yang bermasalah, minta di hapus aja, biar bisa input lagi
+
+- masi urus yang outgoing yang double/yang ga keluar
+- untuk yang outgoing katanya buat kps, belom di selidiki
+
+- user belom input mutasi in dan out
+- user kalo outoging beda jadi stop input outgoing
+
+#pencarian pn outgoing yang kps

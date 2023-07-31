@@ -1,0 +1,7 @@
+# Akses ke GitLabnya UMS (harus login dulu di web ke GitLab, download, lalu tambahkan di GitHub Desktop): 
+- GitLab: git@unicotractors.com, Password: g!it@unico123 
+
+# Akses AnyDesk:
+- AnyDesk ID: 520545406, Password: aditya007 
+(Disini tinggal `git pull` saja dari 2 tab terminal yang sudah terbuka)
+- password servernya : unico@123

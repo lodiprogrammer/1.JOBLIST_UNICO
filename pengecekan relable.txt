@@ -1,0 +1,102 @@
+# pengecekan relable
+- pengecekan qty dan qualitas
+- kendala dari luar kendalanya qty
+- kalo dari lokal kendala qty dan quality
+- buat modul baru untuk barang yang qualitasnya jelek atau tidak sesuai
+- barang yang jelek tidak di hitung dalam stok/stok opname (data yang belum clear secara administrasi)
+- buat tempat dengan nama temporrary(TMP)
+- barang yang di sum di inventory_balance tidak termasuk yang TMP
+- pakai rak yang ada, untuk menempatkan barang yang TMP
+- temporary ada 2 
+
+#foto barang baru
+- foto barang baru ada 2x foto
+
+#data incoming mau di restart
+
+#barang dari suplier lokal
+- barang yang bermasalah harus di label ulang
+- barang datang 10, ada 2 barang bermasalah. pemilihan lokasi 8 masukin rak, 2 nya masukin ke lokasi temp. di data temp harus ada flag
+
+#barang fast moving
+- barang outgoung saat itu juga
+- barang yang tidak
+- buat modul baru di incoming yaitu (transfer)
+- buat module outstanding (sisa pesanan)
+- barang yang sudah ada SO ada notif ke orang gudang bahwa barang sudah datang
+- barang yang sudah di booking -> posting DO -> masuk outgoing
+- dibutuhkan app realtime
+
+#rapihkan menu outgoing
+- outgoing masuk juga module shipping
+- motong barang di shipping
+- jangan di potong di outgoing
+
+#module shiping
+- barang yang sudah di box, di scan barcode, 
+- barang yang di box misalnya 1 DO
+- 
+
+#diperbaharui delivery order
+-
+
+incoming->transfer->outstanding SO->approve(tia)->DO
+
+#AI untuk lokasi
+
+#barang yang rusak (TEMP)
+- di stok opname ada logo/flag (repair)
+
+# barang copotan/assembling
+- barang yang sudah di assembling, buat spesifikasi yang harus di penuhi, agar
+
+#lokasi 
+- pencarian lokasi di (inventory/InventoryLocation/locationStock/C)
+- by pn
+
+#inventory location di table di tambahkan jumlah barang dan total qty
+
+#interchange dan stok opname fokus minggu ini
+
+#outgoing order item
+-
+
+#report
+- date time delivery
+- picking, packing, delivery
+
+#interchange
+- permintaan yang interchange sesuai pengurangan interchange yang di pilih
+- tambah interchange detail di (/inventory/Inventory)
+
+
+#Racking lable
+- QR yang belum
+- visualisasi ukuran, barang yang bisa di masukin atau yang tidak
+
+#transfer
+- barang berpindah lokasi dengan scan QR
+- Pemetaan harus bagus dulu
+
+#barang bermasalah
+- barang udah expired
+- barang yang tidak cocok suhunya
+
+
+#meeting internal  (29-3-23)
+1. stok opname yang web
+- lokasi langsung ambil dari defaultnya
+- munculkan stoknya (pn,location,stok system)
+- qty adjust
+- perhitungan onchange = jumlah database,adjust, hasil (android dan web)
+2. interchange
+- yang masuk inventory harus berdasarkan
+- 
+3. yang di demokan 5 sekenario  interchange
+4. searching by pn di lokasi inventori
+5. inventori lokasi di munculkan 
+
+
+
+
+

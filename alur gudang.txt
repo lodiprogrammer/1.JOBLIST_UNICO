@@ -1,0 +1,11 @@
+#alur gudang
+- incoming stok tidak boleh lebih dari qty order dan in, tapi kurang boleh
+- kalau ingin nambah stok biar ga minus
+- cari dlu id pn di incoming, baru masukin stok
+- kalau gaada di incoming, order detail saja di input sum dari stok(co. stok = -2, agar jadi 10 maka input stok = 12)
+- dari pembelian->incoming->masukan DO->outgoing
+- dari pembelian masuk incoming, incoming dicek stok, masuk inventori, jika ada pesanan yang diupload dari team KPS, maka outgoing muncul, lalu barang keluar stok berkurang
+
+#alur purchase dan payment
+- post di purchase invoice jika udah di bayar -> purchASE payment-> account payable
+- harus masukin cart, kalo belom status masih sama

@@ -1,0 +1,5 @@
+# query tambah user di stok opname
+ALTER TABLE `data_stokopname` ADD COLUMN `user` VARCHAR(30) NULL AFTER `location`;
+
+# query tambah user di outgoing order
+ALTER TABLE `outgoing_order` ADD COLUMN `user` VARCHAR(30) NULL AFTER `disc_percent`;

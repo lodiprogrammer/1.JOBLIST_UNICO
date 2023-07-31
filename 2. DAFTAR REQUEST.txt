@@ -1,0 +1,16 @@
+# WEBSTIE
+- menu purchase request pn yang sama harusnya jadi satu/nyatu
+- warna penanda PO yang sudah di pesan, atau barang sudah masuk ke unico
+- penanda PO sudah muncul, tapi kalo pnnya double, warnanya ga muncul
+- harga atau pn gabisa di rubah , atau tidak seperti pemesanan PO manual
+- menurut user, lebih enak yang sebelum memakai fitur baru ini
+
+
+# ANDROID
+- Panah atas dan bawah di ganti text input, di send outgoing
+
+# MASUKAN TEAM GUDANG
+- kendala stok sering tidak cocok ialah barang kps dan unico itu berbeda
+- sistem kps dan unico masih beda, jadi di sistem unico barang yang keluar tidak terdetect
+
+#prioritas follow up email

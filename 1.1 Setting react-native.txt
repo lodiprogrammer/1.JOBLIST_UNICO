@@ -1,0 +1,15 @@
+#API URL
+- WEBSITE = http://unico_apps2.test/api/Component/LogIn
+- REACT NATIVE = http://10.0.2.2/unico_apps2/api/Component/LogIn
+
+#REALEASE APK
+- WITHOUT CLEAN GRADLE = cd android && ./gradlew assembleRelease
+- WITH CLEAN GRADLE = cd android && ./gradlew clean && ./gradlew assembleRelease
+
+#DAFTAR GIT BARU DI TERMINAL
+- git config --global user.email "Email"
+- git config --global user.name "your email"
+
+#AKUN UMS WEBSITE DAN REACT
+- aditya
+- aditya007 

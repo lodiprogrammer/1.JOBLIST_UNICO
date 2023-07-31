@@ -1,0 +1,9 @@
+# permintaan barang sesuai box
+- jika orang PO meminta barang dengan stok tertentu, permintaan langsung masuk kategori box yang akan turun
+- orang gudang tinggal cari lokasi barang sesuai lokasi yang sudah ada sesuai list kode box yang di minta
+- data masuk box harus sesuai qty, jika tidak, hp keluar popup atau notif
+- jika sudah selesai, barang automatis berkurang dari stok gudang
+
+
+user yang input/edit
+pas delete stok opname

@@ -1,0 +1,28 @@
+Permintaan barang diambil dari gudang KPS dan sisa diambil dari unico.
+ex : permintaan barang ada 8 pcs diam bil dari gudang kps 6 pcs dan sisa 2 pcs diambil dari gudang unico. jadi SO yang dimasukan ke outgoing tetap 8 karna pembuatan SO tidak bisa dipisah.
+
+permintaan barang 8 pcs
+kps = 6
+unico = 2
+
+harusnya di unico stoknya berkurang 2
+
+ada data double di outgoing
+UTI2304SO0196
+UTI2304SO0195
+
+revisi
+1. success transfer to do notification
+
+next
+1. barang perpindahan tempat
+2. tambah tombol transfer pindah lokasi
+
+
+192.168.2.1
+
+
+#biar jelas laporannya
+- tracing contoh so
+- bukti harus jelas
+- inventory detail

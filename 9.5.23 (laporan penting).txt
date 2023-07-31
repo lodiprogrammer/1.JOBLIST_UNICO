@@ -1,0 +1,7 @@
+#request pak stevent
+- mutasi in dan out minta export dan import data
+
+#masukan untuk sistem ums terakhir 9.5.23
+- di DO bisa filter by pn, biar bisa cek barang keluar udah dibikin DO apa belum
+- filter di inventory detail kalo ada karakter alphabet jadinya ga muncul, tapi kalo di cek di sqlyog bagian inventory_detail itu ada. contoh pn "600-185-4100D"
+- di outgoing order website, user minta tambahan record lokasi sama orang yang input DO tersebut, biar bisa koordinasi antar team gudang dan sales

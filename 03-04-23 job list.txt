@@ -1,0 +1,31 @@
+1. default location saat input modal stock opname di limit 1 dan desc //cancel
+2. munculkan informasi stock opname ( stock system  ) //done
+3. tambahkan qty real stock opname ( tidak bisa di edit ) //done
+5. tambahkan filter PN di inventory location ( menggunakan autocomplete ) //done
+6. rubah default location dari mst item ke inventory balance //done
+========================================================================
+4. tambah informasi interchange di inventory balance ( modal dan ada informasi stocknya ) limit 10 transaksi // belom
+7. di inventory tambah pop up detail //belom ini request baru
+request
+tambahin 15 row di inventory location
+ganti caption
+inventory in totay = inventory
+
+================= SENIN ================================================
+1. buat table do shiping ( ngambilnya dari outgoing posting )
+
+
+Mau minta tolong buatin desain point 4/7 yaa itu teh 1 menu tp ada 2 informasi, saya mau ke do shiping sek
+
+# joblist
+-inventory in today di ganti = inventory balance/inventory
+- informasi interchange
+- informasi 10 transaksi inventory detail terakhir DESC
+- mirip outgoing/incoming
+- limit transaksi pn tersebut (limit 10)
+- select * from inventory_detail where pn = pn limit 10 order by desc
+- mst item where pn (
+- pencarian lokasi di android harus di klik dlu lokasi mainnya
+- 
+
+707-99-73800

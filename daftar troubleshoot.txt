@@ -1,0 +1,9 @@
+trouble marketing website ums
+- data PL94 belum keupdate
+- data double pada saat post paid cash
+- data blum di bayar, tapi status sudah terbayar
+- data invoice masih ada yang bermasalah
+- history quotation nilainya 0, tapi pas di add quotation cart list muncul datanya
+
+android react
+- proses pembuatan stok opname

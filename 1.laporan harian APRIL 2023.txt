@@ -1,0 +1,27 @@
+error jadi di menu billing, pas add billing itu ada menu save and post. naah itu pas di klik save and post itu, dia posting lagi, jadi double 2x posting gitu
+
+
+#03/04/2023
+-. cek email masuk dan keluar
+-. konfirmasi email masuk dan keluar
+-. email yang bermasalah itu, jika pengirim pesan bersama attachment-nya(file pdf dll), jadi engga masuk, tapi kalo ngirim teks aja, bisa
+-. trouble shoot masalah email tidak masuk dengan attachment pdf
+-. cek app react native yang sudah berjalan
+-. konfirmasi julia app react yang sudah berjalan
+
+-. tambah informasi interchange di inventory balance ( modal dan ada informasi stocknya ) limit 10 transaksi // belom
+-. di inventory tambah pop up detail //belom ini request baru
+request
+tambahin 15 row di inventory location
+ganti caption
+inventory in totay = inventory
+
+
+#01/04/2023
+selamat sore pak heri...berikut progress saya hari ini:
+1. untuk koneksi SSID akun sudah di berikan untuk user yang bermasalah (pak didi, kak vera)
+2. mengirim email ke email yang bermasalah, dan meminta feedback, koordinasi dengan team sales(done)
+3. cek email pengiriman dan penerimaan ke email yang bermasalah(on progress)
+4. cek aplikasi modul interchange web dan android yang sedang di pakai(on progsess)
+5. cek error di aplikasi android (on progress)
+

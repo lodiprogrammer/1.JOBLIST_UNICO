@@ -1,0 +1,74 @@
+##UPDATE STOK INVENTORY BALANCE##
+UPDATE inventory_balance INNER JOIN stokkps200623 ON inventory_balance.pn = stokkps200623.pn
+SET inventory_balance.stok = stokkps200623.stok
+
+##INSERT DARI REFERENSI TABLE LAIN##
+INSERT INTO inventory_balance (pn, pname, stok, lastmodified,id_dimension)
+SELECT pn, pname, stok,'2023-06-20 23:05:36','0' FROM nobalance
+
+
+
+##REPLACE ISI FIELD##
+UPDATE inventory_balance SET pname = REPLACE(pname,'"','') WHERE pname LIKE '%"%'
+
+##CARI DUPLIKAT##
+SELECT periode, COUNT(periode) AS cnt
+FROM mst_item
+GROUP BY periode
+HAVING (cnt > 1)
+ORDER BY cnt DESC
+
+##CARI INVOICE##
+SELECT a.invoice,a.`grand_total`,a.`total_paid_ap`,b.id_pb,b.`grand_total`,c.id_pp,c.`payment` 
+FROM mst_purchase_invoice a
+LEFT JOIN purchase_bills b ON b.`codeinvoice` = a.invoice
+LEFT JOIN ap_det c ON c.id_pb = b.id_pb
+WHERE a.invoice = 'A03432'
+
+##CARI KARAKTER HURUP KURANG DARI##
+SELECT * FROM mst_customer WHERE LENGTH(npwp) < 15
+
+##CARI SO##
+SELECT a.so_num,a.grand_qty,(SELECT SUM(qty) FROM sales_orderdet WHERE so_num = a.so_num) AS qtydet,
+a.qty_kirim,(SELECT SUM(qty_kirim) FROM sales_orderdet WHERE so_num = a.so_num) AS qtykirimdet
+,(SELECT SUM(grand_qty) FROM delivery_order WHERE id_so = a.id_so) AS doqty 
+FROM sales_order a WHERE a.qty_kirim <> a.grand_qty AND a.so_date > '2022-12-31'
+
+##CARI SO##
+SELECT a.so_num,a.qty_kirim,(SELECT SUM(grand_qty) FROM delivery_order WHERE id_so = a.id_so) AS doqty 
+FROM sales_order a
+WHERE a.qty_kirim <> (SELECT SUM(grand_qty) FROM delivery_order WHERE id_so = a.id_so) AND a.so_date > '2022-12-31'
+
+##CARI SO##
+SELECT a.so_num,a.part_no,a.description,a.qty,a.qty_kirim,b.qty
+FROM sales_orderdet a
+LEFT JOIN delivery_orderdet b ON a.id_so = b.id_so
+WHERE a.so_num = 'UTI2201SO0011'
+
+##CARI SO##
+SELECT a.so_num,a.part_no,a.description,a.qty,a.qty_kirim,
+(SELECT SUM(qty) FROM delivery_orderdet WHERE a.id = id_detailso) AS total
+FROM sales_orderdet a
+WHERE a.so_num = 'UTI2302SO0296'
+
+##HAPUS KARAKTER SPASI##
+UPDATE mst_location_tester SET nama = REPLACE(nama, ' ', '')
+
+##CARI NAMA LOKASI SPESIFIK##
+SELECT * FROM mst_location GROUP BY lantai
+UPDATE mst_location SET lantai = 5 WHERE nama LIKE 'e%'
+
+
+##UPDATE YANG VALUE NYA GAADA##
+SELECT * FROM inventory_detail WHERE warehouse IS NULL
+UPDATE inventory_detail SET warehouse = 'UNICO' WHERE warehouse IS NULL
+
+
+##UPDATE PNAME YANG KEHAPUS##
+UPDATE quotation_detail SET PNAME = (SELECT pname FROM quotation_detail_dummy WHERE PN = quotation_detail.PN LIMIT 1)
+WHERE pname IS NULL AND id_qo LIKE 'UTI21%'
+
+SELECT id_qo,pn,pname,pnas,pnameas FROM quotation_detail WHERE PNAMEAS IS NULL
+UPDATE quotation_detail SET PNAMEAS = PNAME
+
+ 
