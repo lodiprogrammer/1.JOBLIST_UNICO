@@ -71,4 +71,7 @@ WHERE pname IS NULL AND id_qo LIKE 'UTI21%'
 SELECT id_qo,pn,pname,pnas,pnameas FROM quotation_detail WHERE PNAMEAS IS NULL
 UPDATE quotation_detail SET PNAMEAS = PNAME
 
+ALTER TABLE item_tmp_GO
+MODIFY COLUMN PRICE VARCHAR(255) DEFAULT NULL 
+
  

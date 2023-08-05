@@ -2,6 +2,6 @@
 - GitLab: git@unicotractors.com, Password: g!it@unico123 
 
 # Akses AnyDesk:
-- AnyDesk ID: 520545406, Password: aditya007 
+- AnyDesk ID: 966044284, Password: unico@123 
 (Disini tinggal `git pull` saja dari 2 tab terminal yang sudah terbuka)
 - password servernya : unico@123
