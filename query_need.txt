@@ -74,4 +74,9 @@ UPDATE quotation_detail SET PNAMEAS = PNAME
 ALTER TABLE item_tmp_GO
 MODIFY COLUMN PRICE VARCHAR(255) DEFAULT NULL 
 
+##update stok balance
+UPDATE inventory_balance SET stok = 
+(SELECT SUM(qty) FROM inventory_detail WHERE pn = inventory_balance.pn AND warehouse = inventory_balance.warehouse)
+WHERE pn = '600-319-3841D' AND warehouse = 'UNICO'
+
  
