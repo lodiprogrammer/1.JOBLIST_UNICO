@@ -79,4 +79,11 @@ UPDATE inventory_balance SET stok =
 (SELECT SUM(qty) FROM inventory_detail WHERE pn = inventory_balance.pn AND warehouse = inventory_balance.warehouse)
 WHERE pn = '600-319-3841D' AND warehouse = 'UNICO'
 
- 
+##query untuk update data jika ada, insert data jika gaada
+
+INSERT INTO inventory_detail(pn, pname, qty, tanggaltrans, lastmodified,default_lokasi,warehouse)
+SELECT pn, pname,stok, '2023-08-16', '2023-08-16 23:05:36',location,'UNICO' FROM StokUnicoLt1
+WHERE (SELECT warehouse FROM inventory_detail WHERE pn = StokUnicoLt1.pn AND warehouse = 'unico') IS NULL
+
+UPDATE inventory_detail INNER JOIN StokUnicoLt1 ON inventory_detail.pn = StokUnicoLt1.pn
+SET inventory_detail.qty = StokUnicoLt1.stok WHERE warehouse = 'unico'
