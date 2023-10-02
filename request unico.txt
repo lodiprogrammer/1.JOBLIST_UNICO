@@ -1,0 +1,11 @@
+#KMS
+- refresh tab pengen pakai shortcut (f6)	
+- penjualan sama pembelian tambahkan checkbox untuk pembulatan
+
+#UMS
+- subgrid inventory, tambahkan kalau yang assembly, atau barang titipan (done)
+
+#ums urgent
+- mutasi out print dan filter per supplier
+- subgrid inventory tanggal keluar barang dimunculkan(patokan dari julia motong outgoing) (done)
+- retur penjualan
