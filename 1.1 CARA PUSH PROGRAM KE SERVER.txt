@@ -5,3 +5,8 @@
 - AnyDesk ID: 966044284, Password: unico@123 
 (Disini tinggal `git pull` saja dari 2 tab terminal yang sudah terbuka)
 - password servernya : unico@123
+
+# tips
+1. ketik (:wq) tanpa kurung. untuk mengambalikan ke root unico
+2. kalo gabisa pakai (git pull) gunakan (sudo git pull)
+3. password komputer linux beserta mesin gitnya = unico@123
