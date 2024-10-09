@@ -5,8 +5,16 @@
 - AnyDesk ID: 966044284, Password: unico@123 
 (Disini tinggal `git pull` saja dari 2 tab terminal yang sudah terbuka)
 - password servernya : unico@123
+- password ke 2 anydesk : unico2@123
 
 # tips
 1. ketik (:wq) tanpa kurung. untuk mengambalikan ke root unico
 2. kalo gabisa pakai (git pull) gunakan (sudo git pull)
 3. password komputer linux beserta mesin gitnya = unico@123
+
+
+# CARA MASUK KE SSH SERVER PUBLIC
+1. history | grep ssh
+2. sudo ssh -p2122 root@45.130.229.7
+3. cd /var/www/html
+

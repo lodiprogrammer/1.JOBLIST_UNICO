@@ -1,0 +1,17 @@
+id biznet
+2100000215181
+no pelanggan biznet
+1000084833
+
+#password VVIP
+lodi
+123
+
+lodi@server2
+123
+
+lodi
+lodi@123
+
+#password unico IOT
+iotunico@123
