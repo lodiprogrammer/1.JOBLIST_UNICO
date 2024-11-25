@@ -16,5 +16,6 @@
 # CARA MASUK KE SSH SERVER PUBLIC
 1. history | grep ssh
 2. sudo ssh -p2122 root@45.130.229.7
-3. cd /var/www/html
+3. pwd = unico@123
+4. cd /var/www/html
 
